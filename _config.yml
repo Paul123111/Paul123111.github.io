@@ -29,7 +29,8 @@ baseurl: ""
 github_username:  Paul123111
 
 # Build settings
-theme: jekyll-theme-hydeout
+# theme: jekyll-theme-hydeout
+remote_theme: fongandrew/hydeout
 
 # Hydeout requires pagination to work correctly
 paginate: 5
@@ -38,6 +39,7 @@ paginate_path: "/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-remote-theme
 
 
 # Exclude from processing.
